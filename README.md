@@ -1,6 +1,6 @@
 # ClippingClips
 2021. 2. 4 ~ 6. sw중심 해커톤  ClippingClips.
-
+https://youtu.be/zeaql9gDb0A
 
 # Feature
 1. 들어갈 때마다 영상을 랜덤으로 뽑아옴.
