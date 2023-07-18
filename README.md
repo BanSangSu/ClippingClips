@@ -1,18 +1,22 @@
 # ClippingClips
-2021. 2. 4 ~ 6. sw중심 해커톤  ClippingClips.
-https://youtu.be/zeaql9gDb0A
+- ### Hackathon
+- ### 4 Feb ~ 6 Feb, 2021 National Program of Excellence in Software
+[![Watch the video](https://img.youtube.com/vi/zeaql9gDb0A/0.jpg)](https://youtu.be/zeaql9gDb0A)
 
-# Feature
-1. 들어갈 때마다 영상을 랜덤으로 뽑아옴.
-2. 한글로 검색하면 파파고번역을  통해 영어로 번역되고 이를 데이터베이스에서 찾아 뿌려줌.
-3. 저장 버튼을 누르면 나만의 암기장으로 영상 저장.
-4. STT를 사용해 스피킹테스트(말한 발음 체크용)
+# Tech Stacks
+- **Flutter, Papago API, PHP, RSelenium(R crwaling)**
+
+
+# Features
+1. Provide random clips each time you enter.
+2. When you search in Korean, Papago Translator(Naver) will translate it to English and find it in the Database and show results in this app.
+3. You can save the clips in your own personalised notebook when you press the plus(+) button.
+4. Use STT(Speech To Text) to check your pronunciation.
 
 
 # To do
-1. 랜덤이 정말 기준없는 랜덤이라 사용자 관심도 데이터를 기반으로 주는 알고리즘으로 보완하자.
-2. 자료들을 넣을 서버와 데이터베이스에서 검색을 위한 알고리즘을 개선할 필요가 있다.
-3. 저장버튼을 누르면 나만의 암기장에 이미지 썸네일이 나오며 누르면 하나의 영상이 크게나오며 자막을 보며 영상을 볼 수 있는 UI면 좋을 것 같다.
-4. STT를 이용해 앞에 나온 영상에 대한 문장을 테스트한다. 그리고 그것에 관한 통계를 나타내고 싶다.
-
-초기에 서버는 php로 간단하게 구현한거기 때문에 좀 더 보완하면 활용가능하다. 
+1. Change the algorithm for serving random clips to one based on user interest data.
+2. To improve performance, we need to develop search algorithms on the server and Database where we put data like clips and user data.
+3. Update UI design so that when you press the save button, a thumbnail of the image appears in your own personalised notebook, and when you press a clip in your own notebook, you can watch the big size video with subtitles.
+4. Use STT to test a sentence about the clips that you watch and make scores. And I want to display some statistics as to results.
+5. Change the server to make it safety and utility, because right now server is implemented easily and simply in PHP. 
