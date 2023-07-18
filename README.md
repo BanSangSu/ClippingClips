@@ -1,6 +1,8 @@
 # ClippingClips
 - ### Hackathon
-- ### 4 Feb ~ 6 Feb, 2021 National Program of Excellence in Software
+- **Organiser: National Program of Excellence in Software**
+- **Period: 4th - 6th Feb, 2021**
+
 [![Watch the video](https://img.youtube.com/vi/zeaql9gDb0A/0.jpg)](https://youtu.be/zeaql9gDb0A)
 
 # Tech Stacks
